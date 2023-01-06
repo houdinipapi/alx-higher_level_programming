@@ -11,3 +11,7 @@ Code](https://intranet.alxswe.com/rltoken/FlkAJ_kPXHC4Y65WrRvA4A)
 
 **man or help:**
 - `python3`
+
+## Tasks
+#### 0. Import a simple function from a simple file
+Write a program that imports the function `def add(a, b):` from the file
