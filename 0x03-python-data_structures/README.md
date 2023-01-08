@@ -45,3 +45,28 @@
 - `8-multiple_returns.py` - a function that returns a tuple with the length of a string and its first character.
 
 #### 9. Find the max
+
+- `9-max_integer.py` - a function that finds the biggest integer of a list.
+
+#### 10. Only by 2
+
+- `10-divisible_by_2.py` - a function that finds all multiples of 2 in a list.
+
+#### 11. Delete at
+
+- `11-delete_at.py` - a function that deletes the item at a specific position in a list.
+
+#### 12. Switch
+
+- `12-switch.py` - a function that switches the value of `a` and `b`.
+
+#### 13. Linked list palindrome
+
+- `13-is_palindrome.c, lists.h` - a function in C that checks if a singly linked list is a palindrome.
+
+#### CPython #0: Python lists
+
+CPython is the reference implementation of the Python programming language. Written in C, CPython is the default and most widely used implementation of the language.
+![CPython](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/7e7834b535261d05532fb80a9304f7051c4ad7ac.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230108%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230108T115136Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=86f7833193237f1d858ed7e00cca52e18a92edf221f2c80744b8d6ec3fd09abb)
+
+- `100-print_python_list_info.c` - a C function that prints some basic info about Python lists.
