@@ -102,3 +102,61 @@ Namespaces are one honking great idea -- let's do more of those!
 ### Pycodestyle
 `Pycodestyle` is now the [new standard of Python style code](https://alx-intranet.hbtn.io/rltoken/UQ25jC6sA5XqZl6ZZIdAaw)
 ![an image](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/231/Flyingcircus_2.jpg)
+
+## Tasks
+
+#### 0. Run Python file
+
+- `0-run` - a Shell script that runs a Python script.
+
+#### 1. Run inline
+
+- `1-run_inline` - a Shell script that runs Python code.
+
+#### 2. Hello, print
+
+- `2-print.py` -  a Python script that prints exactly `"Programming is like building a multilingual puzzle`, followed by a new line.
+
+#### 3. Print integer
+
+- `3-print_number.py` - prints the integer stored in the variable `number`, followed by `Battery street`, followed by a new line.
+
+#### 4. Print float
+
+- `4-print_float.py` - prints the float stored in the variable `number` with a precision of 2 digits.
+
+#### 5. Print string
+
+- `5-print_string.py` - prints 3 times a string stored in the variable `str`, followed by its first 9 characters.
+
+#### 6. Play with strings
+
+- `6-concat.py` - prints `Welcome to Holberton School!`
+
+#### 7. Copy - Cut - Paste
+
+- `7-edges.py` - prints some letters of a string
+
+#### 8. Create a new sentence
+
+- `8-concat_edges.py` - prints `object-oriented programming with Python`, followed by a new line.
+
+#### 9. Easter Egg
+
+- `9-easter_egg.py` - a Python script that prints “The Zen of Python”, by TimPeters, followed by a new line.
+
+#### 10. Linked list cycle
+
+- `10-check_cycle.c` - a function in C that checks if a singly linked list has a cycle in it.
+
+#### 11. Hello, write
+
+- `100-write.py` - a Python script that prints exactly `and that piece of art is useful - Dora Korpar, 2015-10-19`, followed by a new line.
+
+#### 12. Compile
+
+- `101-compile` - a script that compiles a Python script file.
+
+#### 13. ByteCode -> Python #1
+
+- `102-magic_calculation.py` - the Python function `def magic_calculation(a, b):` (does exactly the same as a given disassembler).
