@@ -64,7 +64,7 @@
 
 - `13-is_palindrome.c, lists.h` - a function in C that checks if a singly linked list is a palindrome.
 
-#### CPython #0: Python lists
+#### 14. CPython #0: Python lists
 
 CPython is the reference implementation of the Python programming language. Written in C, CPython is the default and most widely used implementation of the language.
 
