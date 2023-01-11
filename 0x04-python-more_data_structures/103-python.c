@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <Python.h>
+
 /**
  * print_python_bytes - Prints bytes information
  *
@@ -34,25 +35,24 @@ void print_python_bytes(PyObject *p)
 
 	for (i = 0; i < limit; i++)
 		if (string[i] >= 0)
-			printf(" %02x", string[i];)
-
+			printf(" %02x", string[i]);
 		else
 			printf(" %02x", 256 + string[i]);
+
 	printf("\n");
 }
+
 /**
  * print_python_list - Prints list information
  *
  * @p: Python Object
  * Return: no return
  */
-
 void print_python_list(PyObject *p)
 {
 	long int size, i;
 	PyListObject *list;
 	PyObject *obj;
-
 
 	size = ((PyVarObject *)(p))->ob_size;
 	list = (PyListObject *)p;
