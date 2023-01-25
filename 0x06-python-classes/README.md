@@ -31,3 +31,19 @@ Read or watch the below resources in the order presented.
 
 ## More Info
 **Documentation is now mandatory!** Each module, class, and method must contain docstring as comments. [Example Google Style Python Docstrings](https://intranet.alxswe.com/rltoken/dOO785g5EQYkRU2E1wri0g)
+
+## Tasks
+### 0. My first square
+- `0-square.py` - an empty class `Square` that defines a square.
+### 1. Square with size
+- `1-square.py` - a class `Square` that defines a square by: (based on `0-square.py`)
+### 2. Size validation
+- `2-square.py` - a class `Square` that defines a square by: (based on `1-square.py`)
+### 3. Area of a square
+- `3-square.py` - a class `Square` that defines a square by: (based on `2-square.py`)
+### 4. Access and update private attribute
+- `4-square.py` - a class `Square` that defines a square by: (based on `3-square.py`)
+### 5. Printing a square
+- `5-square.py` - a class `Square` that defines a square by: (based on `4-square.py`)
+### 6. Coordinates of a square
+- `6-square.py` - a class `Square` that defines a square by: (based on `5-square.py`)
