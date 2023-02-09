@@ -93,3 +93,27 @@ All your answers should be only one line in a file. No space before or after the
 - `12-answer.txt`
 ### 13. And with a list, is it really the same
 - `13-answer.txt`
+### 14. List append
+- `14-answer.txt`
+### 15. List add
+- `15-answer.txt`
+### 16. Integer incrementation
+- `16-answer.txt`
+### 17. List incrementation
+- `17-answer.txt`
+### 18. List assignation
+- `18-answer.txt`
+### 19. Copy a list object
+- `19-copy_list.py` - a function `def copy_list(l):` that returns a **copy** of a list.
+### 20. Tuple or not?
+- `20-answer.txt`
+### 21. Tuple or not?
+- `21-answer.txt`
+### 22. Tuple or not?
+- `22-answer.txt`
+### 23. Tuple or not?
+- `23-answer.txt`
+### 24. Who I am?
+- `24-answer.txt`
+### 25. Tuple or not
+- `25-answer.txt`
