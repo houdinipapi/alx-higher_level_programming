@@ -117,3 +117,19 @@ All your answers should be only one line in a file. No space before or after the
 - `24-answer.txt`
 ### 25. Tuple or not
 - `25-answer.txt`
+### 26. Empty is not empty
+- `26-answer.txt`
+### 27. Still the same?
+- `27-answer.txt`
+### 28. Same or not?
+- `28-answer.txt`
+### 29. #pythonic
+- `100-magic_string.py` - a function `magic_string()` that returns a string “BestSchool” n times the number of the iteration (see code).
+### 30. Low memory cost
+- `101-locked_class.py` -  a class `LockedClass` with no class or object attribute, that prevents the user from dynamically creating new instance attributes, except if the new instance attribute is called `first_name`.
+### 31. int 1/3
+- `103-line1.txt` and `103-line2.txt` - number of int objects.
+### 32. int 2/3
+- `104-line1.txt`, `104-line2.txt`, `104-line3.txt`, `104-line4.txt`, and `104-line5.txt` - number of int objects.
+### 33. int 3/3
+- `105-line1.txt` - Hint: `NSMALLPOSINTS`, `NSMALLNEGINTS`
