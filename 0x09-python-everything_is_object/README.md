@@ -63,3 +63,33 @@ All your answers should be only one line in a file. No space before or after the
 - Only one line
 - No Shebang
 - All your files should end with a new line
+
+## Tasks
+### 0. Who am I?
+- `0-answer.txt` - a function used to print the type of an object.
+### 1. Where are you?
+- `1-answer.txt` - function used to get the variable identifier (which is the memory address in the CPython implementation).
+### 2. Right count
+- `2-answer.txt`
+### 3. Right count =
+- `3-answer.txt`
+### 4. Right count =
+- `4-answer.txt`
+### 5. Right count =+
+- `5-answer.txt`
+### 6. Is equal
+- `6-answer.txt`
+### 7. Is the same
+- `7-answer.txt`
+### 8. Is really equal
+- `8-answer.txt`
+### 9. Is really the same
+- `9-answer.txt`
+### 10. And with a list, is it equal
+- `10-answer.txt`
+### 11. And with a list, is it the same
+- `11-answer.txt`
+### 12. And with a list, is it really equal
+- `12-answer.txt`
+### 13. And with a list, is it really the same
+- `13-answer.txt`
