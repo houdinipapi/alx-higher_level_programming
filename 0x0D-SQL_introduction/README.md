@@ -7,3 +7,6 @@
 - [Databases](https://intranet.alxswe.com/concepts/556)
 
 ![SQL Image](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/272/rtcwz.jpg)
+
+## Resources
+**Read or watch:**
