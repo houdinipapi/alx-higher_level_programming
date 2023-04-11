@@ -4,7 +4,7 @@ const [arg] = process.argv.slice(2); // Ignore first two arguments (node executa
 
 const num = parseInt(arg);
 
-if (isNaN(num)) {
+if (isNaN(num) || arg === undefined) {
   console.log('Not a Number');
 } else {
   console.log(`My number: ${num}`);
