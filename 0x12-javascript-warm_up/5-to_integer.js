@@ -1,11 +1,7 @@
 #!/usr/bin/node
 
-const [arg] = process.argv.slice(2); // Ignore first two arguments (node executable and script file)
-
-const num = parseInt(arg);
-
-if (isNaN(num) || num === undefined) {
-  console.log('Not a Number');
+if (isNaN(process.argv[2]) || process.argv[2] === undefined) {
+  console.log('Not a number');
 } else {
-  console.log(`My number: ${num}`);
+  console.log('My number:', parseInt(process.argv[2]));
 }
