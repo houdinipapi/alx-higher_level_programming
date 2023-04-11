@@ -1,10 +1,10 @@
 #!/usr/bin/node
 
 // Using CommonJS modules
-function executeXTimes (x, theFunction) {
+function callMeMoby (x, theFunction) {
   for (let i = 0; i < x; i++) {
     theFunction();
   }
 }
 
-module.exports = executeXTimes;
+module.exports = callMeMoby;
