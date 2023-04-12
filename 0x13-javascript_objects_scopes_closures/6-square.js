@@ -5,10 +5,6 @@ const ParentSquare = require('./5-square');
 
 // define the Square class that inherits from Square
 class Square extends ParentSquare {
-  constructor (size) {
-    super(size);
-  }
-
   charPrint (c) {
     // if c is undefined, use X as default
     if (c === undefined) {
