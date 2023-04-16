@@ -1,8 +1,7 @@
 #!/usr/bin/python3
 """
 Defines the city model.
-The City model represents a city for a MySQL database. It inherits from the
-SQLAlchemy declarative base and links to the MySQL table `cities`.
+Inherits from SQLAlchemy Base and links to the MySQL table states.
 """
 
 from sqlalchemy import Column, Integer, String
