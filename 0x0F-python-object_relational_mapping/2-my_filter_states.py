@@ -21,8 +21,8 @@ if __name__ == "__main__":
 
     # Execute SQL query to get all rows with the provided state name
     cur.execute(
-        "SELECT * FROM states WHERE name LIKE BINARY %s",
-        (sys.argv[4],)
+        "SELECT * FROM states WHERE name LIKE BINARY '{}'",
+        .format(sys.argv[4],)
     )
 
     # Fetch all rows
