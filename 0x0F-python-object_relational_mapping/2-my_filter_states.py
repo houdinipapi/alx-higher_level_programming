@@ -23,8 +23,7 @@ if __name__ == "__main__":
 
     # Display results
     for row in rows:
-        if row[1] == argv[4]:
-            print(row)
+        print(row)
 
     # Close cursor and database connection
     cur.close()
