@@ -19,11 +19,11 @@ if __name__ == "__main__":
     id ASC".format(sys.argv[4]))
 
     # Fetch all rows
-    rows = cur.fetchall()
+    states = cur.fetchall()
 
     # Display results
-    for row in rows:
-        print(row)
+    for state in states:
+        print(state)
 
     # Close cursor and database connection
     cur.close()
