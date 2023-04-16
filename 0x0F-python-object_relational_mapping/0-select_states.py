@@ -15,7 +15,7 @@ if __name__ == "__main__":
 
     # Execute query and fetch results
     cursor.execute("SELECT * FROM states")
-    reults = cursor.fetchall()
+    results = cursor.fetchall()
 
     # Print results
     for state in results:
