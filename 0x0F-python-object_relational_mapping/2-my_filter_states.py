@@ -8,22 +8,15 @@ import sys
 
 if __name__ == "__main__":
     # Connect to MySQL server with provided credentials
-    db = MySQLdb.connect(
-        host="localhost",
-        user=sys.argv[1],
-        passwd=sys.argv[2],
-        db=sys.argv[3],
-        port=3306,
-    )
+    db = MySQLdb.connect(host="localhost", user=sys.argv[1],
+                         passwd=sys.argv[2], db=sys.argv[3], port=3306)
 
     # Create cursor object
     cur = db.cusor()
 
     # Execute SQL query to get all rows with the provided state name
-    cur.execute(
-        "SELECT * FROM states WHERE name LIKE BINARY '{}'",
-        .format(sys.argv[4],)
-    )
+    cur.execute("SELECT * FROM states WHERE name LIKE BINARY '{}'",
+                .format(sys.argv[4]))
 
     # Fetch all rows
     rows = cur.fetchall()
