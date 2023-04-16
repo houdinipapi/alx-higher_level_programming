@@ -9,12 +9,12 @@ import MySQLdb
 if __name__ == "__main__":
     db = MySQLdb.connect(user=argv[1], port=3306, host="localhost",
                          passwd=argv[2], db=argv[3])
-    c = db.cursor()
-    c.execute("SELECT * FROM states WHERE name LIKE '{:s}' ORDER BY \
+    cur = db.cursor()
+    cur.execute("SELECT * FROM states WHERE name LIKE '{:s}' ORDER BY \
     id ASC".format(argv[4]))
-    states = c.fetchall()
+    states = cur.fetchall()
     for state in states:
         if state[1] == argv[4]:
             print(state)
-    c.close()
+    cur.close()
     db.close()
