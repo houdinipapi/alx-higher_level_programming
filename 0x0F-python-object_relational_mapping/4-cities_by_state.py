@@ -19,8 +19,3 @@ if __name__ == "__main__":
 
     # Fetch all results and print them using a list comprehension
     [print(city) for city in cur.fetchall()]
-
-
-    # Close cursor and database connection
-    cur.close()
-    conn.close()
