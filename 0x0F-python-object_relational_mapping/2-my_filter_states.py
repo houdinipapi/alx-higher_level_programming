@@ -11,11 +11,11 @@ if __name__ == "__main__":
 
     # Connect to database
     with MySQLdb.connect(
-            host="localhost",
-            user=username,
-            passwd=password,
-            db=database,
-            port=3306,
+        host="localhost",
+        user=username,
+        passwd=password,
+        db=database,
+        port=3306,
     ) as conn:
 
         # Create cursor object
