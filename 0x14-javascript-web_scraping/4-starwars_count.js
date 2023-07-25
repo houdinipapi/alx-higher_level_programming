@@ -9,7 +9,7 @@ request(endpoint, (err, res, body) => {
 
   JSON.parse(body).results.forEach(result => {
     result.characters.forEach(character => {
-      if (character.endsWith('18/1')) count++;
+      if (character.endsWith('18/')) count++;
     });
   });
   console.log(count);
